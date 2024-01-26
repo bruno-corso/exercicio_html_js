@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+form input {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 4px 8px;
+    margin: 32px 0;
+}
+
+.sucesso {
+    color: blue;
+    font-weight: bold;
+}
+
+.falhou {
+    color: red;
+    font-weight: bold;
+}
